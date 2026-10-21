@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags for Google Search Ranking in Mombasa, Kenya -->
+    <title>Beacon of Light Academy | Top Primary & Junior School in Mombasa</title>
+    <meta name="description" content="Beacon of Light Academy is a premier private primary and junior school in Mombasa offering holistic CBC education, nurturing academic excellence, and character.">
+    <meta name="keywords" content="Beacon of Light Academy, private schools in Mombasa, best junior secondary Mombasa, primary school CBC Mombasa, top academy Mombasa">
+    <meta name="author" content="Beacon of Light Academy">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (For neat previews when shared on WhatsApp & Facebook) -->
+    <meta property="og:title" content="Beacon of Light Academy - Mombasa">
+    <meta property="og:description" content="Nurturing tomorrow's leaders through holistic CBC education in Mombasa. Admissions ongoing.">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome for Icons (Phone, Location, Menu) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-amber-400 selection:text-slate-900">
+
+    
+       <!-- TOP ANNOUNCEMENT BAR (Real School Contacts) -->
+    <header class="bg-slate-900 text-slate-200 text-xs py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <span><i class="fa-solid fa-location-dot text-amber-400 mr-1.5"></i> VOK, New Malindi Road, Mombasa</span>
+                <span class="hidden sm:inline">|</span>
+                <a href="tel:+254796895336" class="hover:text-amber-400 transition-colors">
+                    <i class="fa-solid fa-phone text-amber-400 mr-1.5"></i> 0796 895336
+                </a>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="bg-amber-500 text-slate-950 font-bold px-2 py-0.5 rounded text-[11px] uppercase tracking-wider">Admissions Open</span>
+                <span class="text-slate-300">Term Intake Ongoing</span>
+            </div>
+        </div>
+    
+    </header>
+
+    <!-- MAIN NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                
+                <!-- School Logo & Name -->
+                <a href="#" class="flex items-center gap-3">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-900 to-indigo-700 flex items-center justify-center text-amber-400 shadow-md">
+                        <i class="fa-solid fa-graduation-cap text-2xl"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl sm:text-2xl font-extrabold tracking-tight text-blue-950 block leading-tight">
+                            BEACON OF LIGHT
+                        </span>
+                        <span class="text-xs font-semibold tracking-widest text-amber-600 uppercase">
+                            Academy • Mombasa
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <div class="hidden md:flex items-center gap-8 font-medium text-slate-600 text-sm">
+                    <a href="#home" class="text-blue-900 font-semibold transition-colors">Home</a>
+                    <a href="#about" class="hover:text-blue-900 transition-colors">About Us</a>
+                    <a href="#academics" class="hover:text-blue-900 transition-colors">Academics</a>
+                    <a href="#gallery" class="hover:text-blue-900 transition-colors">Gallery</a>
+                    <a href="#contact" class="hover:text-blue-900 transition-colors">Contact</a>
+                </div>
+
+                <!-- Call to Action Button -->
+                <div class="hidden md:block">
+                    <a href="#contact" class="inline-flex items-center gap-2 bg-blue-900 hover:bg-blue-950 text-white font-semibold text-sm px-5 py-2.5 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+                        <span>Enroll Today</span>
+                        <i class="fa-solid fa-arrow-right text-xs text-amber-400"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobileMenuBtn" aria-label="Toggle Navigation" class="md:hidden text-slate-700 text-2xl p-2 focus:outline-none">
+                    <i class="fa-solid fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Home</a>
+            <a href="#about" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">About Us</a>
+            <a href="#academics" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Academics</a>
+            <a href="#gallery" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Gallery</a>
+            <a href="#contact" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Contact</a>
+            <a href="#contact" class="block text-center bg-blue-900 text-white font-semibold py-3 rounded-lg shadow-md mt-4">
+                Enroll Today
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-slate-50 py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Hero Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-900 text-xs font-semibold px-3 py-1.5 rounded-full">
+                        <i class="fa-solid fa-award text-amber-600"></i>
+                        <span>Holistic CBC Education in Mombasa</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-blue-950 tracking-tight leading-tight">
+                        Shining the Light of <span class="text-amber-500 underline decoration-blue-900/20 underline-offset-8">Excellence</span> on Every Child.
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        At Beacon of Light Academy, we nurture discipline, academic brilliance, and moral integrity. Giving your child the perfect foundation from Early Years to Junior Secondary.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#contact" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-blue-950 font-bold px-7 py-3.5 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200">
+                            <span>Enroll Your Child</span>
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </a>
+
+                       <a href="https://wa.me/254796895336?text=Hello%20Beacon%20of%20Light%20Academy,%20I%20would%20like%20to%20inquire%20about%20admissions." target="_blank" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white hover:bg-slate-50 text-slate-700 font-semibold px-6 py-3.5 rounded-lg border border-slate-300 shadow-sm transition-all duration-200">
+    <i class="fa-brands fa-whatsapp text-emerald-600 text-lg"></i>
+    <span>Chat on WhatsApp</span>
+</a>
+                    </div>
+
+                    <!-- Trust Stats Bar -->
+                    <div class="pt-8 border-t border-slate-200 grid grid-cols-3 gap-4 text-center lg:text-left">
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-bold text-blue-950">100%</p>
+                            <p class="text-xs sm:text-sm text-slate-500 font-medium">CBC Aligned</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-bold text-blue-950">1:20</p>
+                            <p class="text-xs sm:text-sm text-slate-500 font-medium">Teacher-Student Ratio</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-bold text-blue-950">Safe</p>
+                            <p class="text-xs sm:text-sm text-slate-500 font-medium">Serene Campus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right Image -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <!-- Decorative Backdrop Ring -->
+                        <div class="absolute -top-4 -left-4 w-72 h-72 bg-amber-200/50 rounded-full filter blur-2xl -z-10"></div>
+                        <div class="absolute -bottom-4 -right-4 w-72 h-72 bg-blue-200/50 rounded-full filter blur-2xl -z-10"></div>
+                        
+                       <!-- School Crest / Logo Showcase Container -->
+                    <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white aspect-[4/3] sm:aspect-[4/3] lg:aspect-[5/6] flex items-center justify-center p-8 sm:p-12 relative group">
+                        
+                        <!-- Inner Soft Glow Background -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-blue-50/70 via-white to-amber-50/50 -z-10"></div>
+                        
+                        <!-- The School Logo -->
+                        <img 
+                            src="images/logo.png" 
+                            alt="Beacon of Light Academy Official Logo" 
+                            class="max-h-full max-w-full object-contain filter drop-shadow-md transition-transform duration-300 group-hover:scale-105"
+                            onerror="this.src='https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80'"
+                        >
+
+                        <!-- Floating Badge -->
+                        <div class="absolute -bottom-2 sm:bottom-4 left-4 bg-white/95 backdrop-blur-sm py-2.5 px-4 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3">
+                            <div class="w-9 h-9 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-base">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-bold text-slate-800">MoE Registered</p>
+                                <p class="text-[10px] text-slate-500">Mombasa Sub-County</p>
+                            </div>
+                        </div>
+
+                    </div>               <div>
+                                <p class="text-xs font-semibold text-slate-800">MoE Registered</p>
+                                <p class="text-[11px] text-slate-500">Mombasa Sub-County</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- SECTION 1: ABOUT US & LEADERSHIP WELCOME       -->
+    <!-- ============================================== -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: School Image & Director's Badge -->
+                <div class="lg:col-span-5 relative order-2 lg:order-1">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-100">
+                            <img 
+                                src="images/Teachers.png" 
+                                alt="Teachers in Beacon of Light Academy" 
+                                class="w-full h-80 sm:h-96 object-cover"
+                            >
+                        </div>
+                        
+                        <!-- Mini Quote Card (Director's Note) -->
+                        <div class="mt-4 sm:-mt-10 sm:ml-6 relative z-10 bg-slate-900 text-white p-6 rounded-xl shadow-xl border border-slate-800">
+                            <div class="flex items-start gap-4">
+                                <i class="fa-solid fa-quote-left text-amber-400 text-2xl flex-shrink-0"></i>
+                                <div>
+                                    <p class="text-sm italic text-slate-200">
+                                        "Our goal in Mombasa is not just passing examinations, but raising wholesome, upright, and self-driven leaders."
+                                    </p>
+                                    <p class="mt-3 font-semibold text-xs tracking-wider text-amber-400 uppercase">
+                                        — School Administration
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Narrative & Values -->
+                <div class="lg:col-span-7 space-y-6 order-1 lg:order-2">
+                    <div class="inline-flex items-center gap-2 text-blue-900 font-semibold text-sm tracking-wider uppercase">
+                        <span class="w-8 h-0.5 bg-amber-500 inline-block"></span>
+                        About Our Academy
+                    </div>
+
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 tracking-tight leading-snug">
+                        Providing a Nurturing Environment Where Talents Flourish.
+                    </h2>
+
+                    <p class="text-slate-600 leading-relaxed text-base">
+                        Founded with a mission to deliver quality, value-based education in Mombasa, 
+                        <strong>Beacon of Light Academy</strong> combines the Competency-Based Curriculum (CBC) 
+                        with robust moral values, state-of-the-art learning aids, and sports development.
+                    </p>
+
+                    <!-- Mission & Vision Cards -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <!-- Vision -->
+                        <div class="p-5 rounded-xl bg-blue-50/60 border border-blue-100">
+                            <div class="w-10 h-10 rounded-lg bg-blue-900 text-amber-400 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <h3 class="font-bold text-blue-950 text-base mb-1">Our Vision</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                To be Mombasa's lighthouse of academic distinction, creativity, and high-impact moral values.
+                            </p>
+                        </div>
+
+                        <!-- Mission -->
+                        <div class="p-5 rounded-xl bg-amber-50/60 border border-amber-100">
+                            <div class="w-10 h-10 rounded-lg bg-amber-500 text-slate-950 flex items-center justify-center mb-3">
+                                <i class="fa-solid fa-compass"></i>
+                            </div>
+                            <h3 class="font-bold text-blue-950 text-base mb-1">Our Mission</h3>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                To identify, cultivate, and polish every learner's potential through tailored teaching and strong mentorship.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Core School Pillars List -->
+                    <div class="pt-2 grid grid-cols-2 gap-3 text-sm font-medium text-slate-700">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-sm"></i>
+                            <span>Dedicated, TSC-Trained Staff</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-sm"></i>
+                            <span>Equipped Science & Tech Labs</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-sm"></i>
+                            <span>Safe School Transport Available</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-sm"></i>
+                            <span>Nutritious Mid-day Meals</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- SECTION 2: ACADEMICS & CBC CURRICULUM LEVELS    -->
+    <!-- ============================================== -->
+    <section id="academics" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Section Title -->
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <span class="text-blue-900 font-semibold text-xs uppercase tracking-widest bg-blue-100/70 py-1 px-3 rounded-full">
+                    Academic Levels
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 mt-3 tracking-tight">
+                    Structured for Every Stage of Growth
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">
+                    Fully compliant with the Competency Based Curriculum (CBC), ensuring your child builds real-world skills.
+                </p>
+            </div>
+
+            <!-- 3 Educational Tiers Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Tier 1: Early Years / Kindergarten -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow border border-slate-200/80 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-2xl mb-6">
+                            <i class="fa-solid fa-shapes"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-950 mb-2">Early Years (PP1 & PP2)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            A fun, safe, and stimulating play-and-learn setup where toddlers build motor skills, early literacy, and social confidence.
+                        </p>
+                        
+                        <ul class="space-y-2.5 text-xs text-slate-700 font-medium border-t border-slate-100 pt-5">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Phonics & Number Concepts
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Arts, Craft & Sensory Play
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Caring, Attentive Matrons
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="mt-8 block text-center py-2.5 px-4 bg-slate-50 hover:bg-blue-50 text-blue-950 font-semibold text-xs rounded-lg border border-slate-200 transition-colors">
+                        Inquire for Kindergarten
+                    </a>
+                </div>
+
+                <!-- Tier 2: Primary School (Grade 1 - 6) -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-lg relative border-2 border-amber-400 flex flex-col justify-between transform md:-translate-y-2">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow-sm tracking-wider">
+                        Most Popular
+                    </div>
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-blue-100 text-blue-900 flex items-center justify-center text-2xl mb-6">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-950 mb-2">Primary School (Grades 1-6)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Comprehensive CBC foundation focusing on critical thinking, STEM basics, environmental care, and leadership development.
+                        </p>
+                        
+                        <ul class="space-y-2.5 text-xs text-slate-700 font-medium border-t border-slate-100 pt-5">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Integrated Science & Digital Skills
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> English, Kiswahili & Indigenous Lang.
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Continuous CBC Assessments
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="mt-8 block text-center py-2.5 px-4 bg-blue-900 hover:bg-blue-950 text-white font-semibold text-xs rounded-lg shadow transition-colors">
+                        Inquire for Primary
+                    </a>
+                </div>
+
+                <!-- Tier 3: Junior Secondary School -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow border border-slate-200/80 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl mb-6">
+                            <i class="fa-solid fa-microscope"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-950 mb-2">Junior School (Grades 7-9)</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            Preparing adolescents for Senior Secondary through specialized pathways: Science, Social Studies, and Practical Arts.
+                        </p>
+                        
+                        <ul class="space-y-2.5 text-xs text-slate-700 font-medium border-t border-slate-100 pt-5">
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Science & Agriculture Practical Labs
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> ICT & Coding Introduction
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fa-solid fa-check text-emerald-500"></i> Career Guidance & Mentorship
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="mt-8 block text-center py-2.5 px-4 bg-slate-50 hover:bg-blue-50 text-blue-950 font-semibold text-xs rounded-lg border border-slate-200 transition-colors">
+                        Inquire for Junior Sec
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- SECTION 3: CAMPUS LIFE & GALLERY               -->
+    <!-- ============================================== -->
+    <section id="gallery" class="py-20 bg-white">
+        <!-- ============================================== -->
+    <!-- SECTION 3: CAMPUS LIFE & GALLERY (REAL PHOTOS) -->
+    <!-- ============================================== -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-blue-900 font-semibold text-xs uppercase tracking-widest bg-blue-100/70 py-1 px-3 rounded-full">
+                        Campus Life
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 mt-3 tracking-tight">
+                        Experience Beacon of Light Academy
+                    </h2>
+                </div>
+                <p class="text-slate-500 text-sm mt-3 md:mt-0 max-w-md">
+                    From ICT coding labs and swimming sessions to cultural festivities and holistic classroom mentorship.
+                </p>
+            </div>
+
+            <!-- 8-Photo Showcase Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                
+                <!-- 1. ICT Lab -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/ict-lab.jpg" 
+                        alt="Pupils learning computer and digital skills in the ICT lab" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Digital Literacy</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Modern ICT & Computer Lab</h4>
+                    </div>
+                </div>
+
+                <!-- 2. Swimming Pool -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/swimming.jpg" 
+                        alt="Students enjoying swimming lessons" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Co-Curricular</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Swimming & Water Safety</h4>
+                    </div>
+                </div>
+
+                <!-- 3. Cultural Day (Girl / Attire) -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/cultural-day-1.jpg" 
+                        alt="Student celebrating Kenya cultural heritage day" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Heritage & Arts</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Annual Cultural Day Festival</h4>
+                    </div>
+                </div>
+
+                <!-- 4. Playground & Sliders -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/playground.jpg" 
+                        alt="Early years children playing on slides and swings" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1576759868774-4b533cb9a562?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Playgroup & PP1</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Secure Outdoor Play Park</h4>
+                    </div>
+                </div>
+
+                <!-- 5. Teacher Mentorship -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/teacher-mentorship.jpg" 
+                        alt="Teacher guiding students inside the classroom" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Academics</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Personalized Teacher Guidance</h4>
+                    </div>
+                </div>
+
+                <!-- 6. Dining & Nutrition -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/dining.jpg" 
+                        alt="Students dining area enjoying warm nutritious lunch" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Health & Care</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Nutritious Dining & Catering</h4>
+                    </div>
+                </div>
+
+                <!-- 7. Cultural Day (Boy / Attire) -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/cultural-day-2.jpg" 
+                        alt="Young learner in traditional attire on school cultural day" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Talent & Confidence</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Cultural Pride & Expression</h4>
+                    </div>
+                </div>
+
+                <!-- 8. Classroom Learning -->
+                <div class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-slate-900 aspect-[4/3] transition-all duration-300">
+                    <img 
+                        src="images/classroom.jpg" 
+                        alt="Classroom attentive pupils participating in class" 
+                        class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 group-hover:opacity-80"
+                        onerror="this.src='https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80'"
+                    >
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
+                        <span class="text-amber-400 text-xs font-bold uppercase tracking-wider">Active CBC</span>
+                        <h4 class="text-white text-sm font-semibold mt-0.5">Interactive Classroom Sessions</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Client Reassurance Note -->
+            <div class="mt-12 text-center">
+                <span class="inline-flex items-center gap-2 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold px-4 py-2 rounded-full">
+                    <i class="fa-solid fa-camera text-amber-500"></i>
+                    All moments captured live on campus at Beacon of Light Academy
+                </span>
+            </div>
+
+        </div>
+    </section>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- SECTION 4: CONTACT, ADMISSIONS & GOOGLE MAP    -->
+    <!-- ============================================== -->
+    <section id="contact" class="py-20 bg-slate-50 border-t border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-blue-900 font-semibold text-xs uppercase tracking-widest bg-amber-100 py-1 px-3 rounded-full">
+                    Admissions & Visits
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-950 mt-3 tracking-tight">
+                    Visit Our Campus or Reach Out
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-2">
+                    Our admissions office is ready to assist you with inquiries, fee structure, and booking school tours.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Left Column: Contact Cards + Google Map -->
+                <div class="lg:col-span-6 space-y-6">
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Card 1: Phone -->
+                        <div class="bg-white p-5 rounded-xl border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-lg bg-blue-50 text-blue-900 flex items-center justify-center mb-3 text-lg">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <h4 class="text-xs uppercase font-bold text-slate-400">Call Admissions</h4>
+                            <a href="tel:+254796895336" class="text-sm font-bold text-blue-950 hover:text-amber-500 transition-colors">
+                                0796 895336
+                            </a>
+                        </div>
+
+                        <!-- Card 2: Email -->
+                        <div class="bg-white p-5 rounded-xl border border-slate-200/80 shadow-sm">
+                            <div class="w-10 h-10 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center mb-3 text-lg">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <h4 class="text-xs uppercase font-bold text-slate-400">Email Us</h4>
+                            <a href="mailto:beaconoflightacademy21@gmail.com" class="text-xs font-bold text-blue-950 hover:text-amber-500 transition-colors break-all">
+                                beaconoflightacademy21@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Campus Location Details -->
+                    <div class="bg-white p-6 rounded-xl border border-slate-200/80 shadow-sm space-y-2">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-amber-500 text-lg mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-blue-950 text-base">Campus Location</h4>
+                                <p class="text-sm text-slate-600">VOK, New Malindi Road, Mombasa, Kenya (Postal Code: 80100)</p>
+                                <p class="text-xs text-slate-500 mt-1">Visiting Hours: Mon – Fri: 7:30 AM – 4:30 PM | Sat: 8:30 AM – 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accurate Google Map Pinned Directly to Beacon of Light Academy -->
+<div class="rounded-xl overflow-hidden border border-slate-200 shadow-sm h-64 sm:h-72">
+    <iframe 
+        title="Beacon of Light Academy Official Google Map Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.9592060036903!2d39.68715877438373!3d-4.028742344772462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184013a462d5e869%3A0xd28f3fa3a0b94b43!2sBeacon%20of%20Light%20Academy!5e0!3m2!1sen!2sus!4v1792598988847!5m2!1sen!2sus" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+</div>
+
+                </div>
+                <!-- Right Column: Parent Admissions Inquiry Form -->
+                <div class="lg:col-span-6 bg-white p-8 sm:p-10 rounded-2xl shadow-xl border border-slate-100">
+                    <h3 class="text-2xl font-bold text-blue-950 mb-2">Book an Admission Interview</h3>
+                    <p class="text-sm text-slate-500 mb-6">Fill in your details below and our Headteacher will contact you within 24 hours.</p>
+
+                  <form action="https://formsubmit.co/beaconoflightacademy21@gmail.com" method="POST" class="space-y-4">
+    
+    <!-- Prevents Spambots -->
+    <input type="text" name="_honey" style="display:none">
+
+    <!-- Disable Captcha so parents submit quickly -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Subject line of the email the school receives -->
+    <input type="hidden" name="_subject" value="New Student Admission Inquiry - Beacon of Light Academy">
+
+    <div>
+        <label class="block text-xs font-semibold uppercase text-slate-700 mb-1.5">Parent / Guardian Name</label>
+        <input type="text" name="Parent_Name" required placeholder="e.g. Mary Mwangi" class="w-full px-4 py-3 text-sm rounded-lg border border-slate-200 focus:outline-none focus:border-blue-900 focus:ring-1 focus:ring-blue-900 transition">
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div>
+            <label class="block text-xs font-semibold uppercase text-slate-700 mb-1.5">Phone Number</label>
+            <input type="tel" name="Phone_Number" required placeholder="0712 345 678" class="w-full px-4 py-3 text-sm rounded-lg border border-slate-200 focus:outline-none focus:border-blue-900 focus:ring-1 focus:ring-blue-900 transition">
+        </div>
+        <div>
+            <label class="block text-xs font-semibold uppercase text-slate-700 mb-1.5">Child's Class / Grade</label>
+            <select name="Target_Grade" required class="w-full px-4 py-3 text-sm rounded-lg border border-slate-200 focus:outline-none focus:border-blue-900 focus:ring-1 focus:ring-blue-900 transition bg-white text-slate-700">
+                <option value="">Select Level</option>
+                <option value="Kindergarten (PP1 / PP2)">Kindergarten (PP1 / PP2)</option>
+                <option value="Lower Primary (Grade 1 - 3)">Lower Primary (Grade 1 - 3)</option>
+                <option value="Upper Primary (Grade 4 - 6)">Upper Primary (Grade 4 - 6)</option>
+                <option value="Junior Secondary (Grade 7 - 9)">Junior Secondary (Grade 7 - 9)</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <label class="block text-xs font-semibold uppercase text-slate-700 mb-1.5">Special Questions or Message (Optional)</label>
+        <textarea name="Message" rows="3" placeholder="Tell us if you require school transport or have specific inquiries..." class="w-full px-4 py-3 text-sm rounded-lg border border-slate-200 focus:outline-none focus:border-blue-900 focus:ring-1 focus:ring-blue-900 transition"></textarea>
+    </div>
+
+    <button type="submit" class="w-full bg-blue-900 hover:bg-blue-950 text-white font-bold py-3.5 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+        Submit Inquiry Application
+    </button>
+
+    <p class="text-[11px] text-center text-slate-400 mt-2">
+        <i class="fa-solid fa-lock mr-1"></i> Your information is kept completely confidential.
+    </p>
+</form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- FOOTER                                         -->
+    <!-- ============================================== -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-slate-800">
+                
+                <!-- School Info Column -->
+                <div class="md:col-span-2 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-lg bg-blue-900 flex items-center justify-center text-amber-400">
+                            <i class="fa-solid fa-graduation-cap text-xl"></i>
+                        </div>
+                        <span class="text-xl font-black tracking-tight text-white">
+                            BEACON OF LIGHT ACADEMY
+                        </span>
+                    </div>
+                    <p class="text-sm text-slate-400 max-w-sm">
+                        Empowering young minds with holistic CBC education, high moral discipline, and 21st-century talents located at VOK, New Malindi Road, Mombasa.
+                    </p>
+                    <!-- Facebook Social Button -->
+                    <div class="pt-2">
+                        <a href="https://www.facebook.com/beaconoflightacademy" target="_blank" class="inline-flex items-center gap-2 bg-blue-900/60 hover:bg-blue-800 text-slate-200 text-xs px-3.5 py-2 rounded-lg border border-blue-800 transition">
+                            <i class="fa-brands fa-facebook text-blue-400 text-base"></i>
+                            <span>Follow Us on Facebook</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Navigation Links -->
+                <div>
+                    <h4 class="text-white text-xs font-bold uppercase tracking-wider mb-4">Quick Navigation</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" class="hover:text-amber-400 transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-amber-400 transition-colors">About the School</a></li>
+                        <li><a href="#academics" class="hover:text-amber-400 transition-colors">Academic Levels</a></li>
+                        <li><a href="#gallery" class="hover:text-amber-400 transition-colors">Campus Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-amber-400 transition-colors">Admissions & Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Working Hours -->
+                <div>
+                    <h4 class="text-white text-xs font-bold uppercase tracking-wider mb-4">Office Hours</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li class="flex justify-between">
+                            <span>Monday – Friday:</span>
+                            <span class="text-slate-200">7:30 AM – 4:30 PM</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Saturday:</span>
+                            <span class="text-slate-200">8:30 AM – 1:00 PM</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Sunday & Holidays:</span>
+                            <span class="text-amber-400">Closed</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright & Developer Credit -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 Beacon of Light Academy. All rights reserved.</p>
+                <p>Website Developed & Managed with pride in Kenya.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================== -->
+    <!-- FLOATING WHATSAPP BUTTON (FOR QUICK CLIENT INQUIRIES) -->
+    <!-- ============================================== -->
+    <a 
+        href="https://wa.me/254796895336?text=Hello%20Beacon%20of%20Light%20Academy,%20I%20am%20a%20parent%20inquiring%20about%20school%20admission." 
+        target="_blank" 
+        aria-label="Chat on WhatsApp"
+        class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110 group"
+    >
+        <span class="absolute -top-10 right-0 bg-slate-900 text-white text-[11px] font-semibold py-1 px-3 rounded-lg shadow-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+            Chat with us!
+        </span>
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Simple JavaScript for Mobile Menu Toggle -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuIcon = document.getElementById('menuIcon');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            } else {
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            }
+        });
+
+        // Auto close menu when link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            });
+        });
+    </script>
+</body>
+</html>

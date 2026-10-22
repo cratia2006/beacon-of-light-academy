@@ -62,8 +62,8 @@
                 
                 <!-- School Logo & Name -->
                 <a href="#" class="flex items-center gap-3">
-                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-blue-900 to-indigo-700 flex items-center justify-center text-amber-400 shadow-md">
-                        <i class="fa-solid fa-graduation-cap text-2xl"></i>
+                    <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm border border-slate-100 p-1">
+                        <img src="images/logo.png" alt="Beacon of Light Academy Logo" class="w-full h-full object-contain">
                     </div>
                     <div>
                         <span class="text-xl sm:text-2xl font-extrabold tracking-tight text-blue-950 block leading-tight">
@@ -76,7 +76,7 @@
                 </a>
 
                 <!-- Desktop Navigation Links -->
-                <div class="hidden md:flex items-center gap-8 font-medium text-slate-600 text-sm">
+                <div class="hidden lg:flex items-center gap-7 font-medium text-slate-600 text-sm">
                     <a href="#home" class="text-blue-900 font-semibold transition-colors">Home</a>
                     <a href="#about" class="hover:text-blue-900 transition-colors">About Us</a>
                     <a href="#academics" class="hover:text-blue-900 transition-colors">Academics</a>
@@ -84,15 +84,28 @@
                     <a href="#contact" class="hover:text-blue-900 transition-colors">Contact</a>
                 </div>
 
-                <!-- Call to Action Button -->
-                <div class="hidden md:block">
-                    <a href="#contact" class="inline-flex items-center gap-2 bg-blue-900 hover:bg-blue-950 text-white font-semibold text-sm px-5 py-2.5 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
+                <!-- Desktop Action Buttons (School Portal + Enroll CTA) -->
+                <div class="hidden md:flex items-center gap-3">
+                    <!-- School Portal Link (Opens in new tab) -->
+                    <a 
+                        href="https://cbc-school-portal.vercel.app" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-blue-950 font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-lg border border-slate-200 transition-all duration-200 group"
+                        title="Access Staff & Parent Portal"
+                    >
+                        <i class="fa-solid fa-arrow-right-to-bracket text-blue-900 group-hover:translate-x-0.5 transition-transform"></i>
+                        <span>School Portal</span>
+                    </a>
+
+                    <!-- Enroll Today Button -->
+                    <a href="#contact" class="inline-flex items-center gap-2 bg-blue-900 hover:bg-blue-950 text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">
                         <span>Enroll Today</span>
-                        <i class="fa-solid fa-arrow-right text-xs text-amber-400"></i>
+                        <i class="fa-solid fa-chevron-right text-[10px] text-amber-400"></i>
                     </a>
                 </div>
 
-                <!-- Mobile Menu Button -->
+                <!-- Mobile Menu Hamburger Button -->
                 <button id="mobileMenuBtn" aria-label="Toggle Navigation" class="md:hidden text-slate-700 text-2xl p-2 focus:outline-none">
                     <i class="fa-solid fa-bars" id="menuIcon"></i>
                 </button>
@@ -104,11 +117,27 @@
             <a href="#home" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Home</a>
             <a href="#about" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">About Us</a>
             <a href="#academics" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Academics</a>
-            <a href="#gallery" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Gallery</a>
-            <a href="#contact" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Contact</a>
-            <a href="#contact" class="block text-center bg-blue-900 text-white font-semibold py-3 rounded-lg shadow-md mt-4">
-                Enroll Today
-            </a>
+            <a href="#gallery" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Academics & CBC</a>
+            <a href="#gallery" class="block py-2 text-slate-700 font-medium hover:text-blue-900 border-b border-slate-50">Campus Gallery</a>
+            <a href="#contact" class="block py-2 text-slate-700 font-medium hover:text-blue-900">Contact & Location</a>
+            
+            <div class="pt-2 space-y-2">
+                <!-- Mobile School Portal Button -->
+                <a 
+                    href="https://cbc-school-portal.vercel.app" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-center gap-2 w-full text-center bg-slate-100 hover:bg-slate-200 text-blue-950 font-semibold py-3 rounded-lg border border-slate-300 transition-colors"
+                >
+                    <i class="fa-solid fa-arrow-right-to-bracket text-blue-900"></i>
+                    <span>School Portal Login</span>
+                </a>
+
+                <!-- Mobile Enroll Button -->
+                <a href="#contact" class="block text-center bg-blue-900 hover:bg-blue-950 text-white font-semibold py-3 rounded-lg shadow-md">
+                    Enroll Today
+                </a>
+            </div>
         </div>
     </nav>
 
